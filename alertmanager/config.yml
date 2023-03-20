@@ -1,0 +1,10 @@
+route:
+  receiver: 'slack'
+
+receivers:
+- name: slack
+  slack_configs:
+  - channel: "#grafana_alert"
+    send_resolved: true
+    username: "koalasjensen5"             
+    api_url: 'https://hooks.slack.com/services/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'
